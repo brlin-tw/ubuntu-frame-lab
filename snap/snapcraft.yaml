@@ -1,0 +1,14 @@
+name: ubuntu-frame-lab-brlin
+base: core22
+version: git
+summary: Ubuntu Frame Lab by Buo-Ren, Lin
+description: |
+  [Raspberry Pi x Ubuntu 實務講堂 #01](https://raspberrypi-tw-bdfa45.kktix.cc/events/ubuntu-workshop-01)
+
+grade: stable
+confinement: strict
+
+parts:
+  my-part:
+    # See 'snapcraft plugins'
+    plugin: nil
